@@ -242,6 +242,7 @@ footer textarea {
 
     .skills-container {
         flex-direction: column;
+        padding: 20px;
 
     }
 
