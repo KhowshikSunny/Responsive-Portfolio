@@ -230,26 +230,37 @@ footer textarea {
 
 /* Responsive media quary */
 @media screen and (max-width: 576px) {
-    .s-padding{
+    .s-padding {
         padding: 2%;
     }
-    .auto{
+
+    .auto {
         width: 0 auto;
     }
+
     .hide {
         display: none;
     }
 
-    .skills-container {
+    .skills-container,
+    .resume-container,
+    .secound-bg-color {
         flex-direction: column;
         padding: 20px;
 
+    }
+
+    .secound-bg-color {
+        width: 100%;
     }
 
     .skills-container {
         width: 80%;
         margin: 0 auto;
     }
-    
+    .footer-column{
+        width: 100%;
+    }
+
 
 }
