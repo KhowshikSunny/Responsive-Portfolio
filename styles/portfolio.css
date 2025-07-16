@@ -269,7 +269,7 @@ footer textarea {
     footer input[type="email"],
     footer textarea {
         width: 90%;
-        padding: 10px 10px;
+        padding: 0px 10px;
         margin-bottom: 24px;
         border: none;
 
